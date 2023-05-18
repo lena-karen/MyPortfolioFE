@@ -67,6 +67,7 @@ export default function Form() {
 				<input 
 					type="submit" 
 					className = 'btn btn-dark' 
+					value='Send email'
 				/>
 			</div>
 		</div>
