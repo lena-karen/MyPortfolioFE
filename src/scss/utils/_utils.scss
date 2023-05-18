@@ -1,0 +1,64 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/mixins' as *;
+.heading {
+	font-size: 2rem;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: $black;
+	position: relative;
+	display: inline-block;
+	@include responsive(xsm) {
+		font-size: 1.8rem;
+	}
+	&::after {
+		@include position(absolute, 100%, null, null, 0);
+		content: '';
+		width: 100%;
+		height: 0.5rem;
+		background: $green-500;
+		opacity: 0.4;
+	}
+}
+
+.lowercase {
+	text-transform: lowercase !important;
+}
+
+.items_center {
+	align-items: center;
+}
+
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	height: 4.3rem;
+	line-height: 4.3rem;
+	padding: 0 1.5rem;
+	border-radius: .3rem;
+	border: none;
+	font-size: 1.5rem;
+	font-weight: 500;
+	cursor: pointer;
+	text-transform: capitalize;
+	transition: outline .3s linear;
+	@include responsive(xsm) {
+		height: 3.5rem;
+		line-height: 3.5rem;
+		padding: 0 1.3rem;
+		font-size: 1.2rem;
+	}
+	&-default {
+		background: $green-500;
+		color: $white;
+		&:focus {
+			outline: 0.4rem solid $green-100;
+		}
+	}
+	&-dark {
+		background: $black;
+		color: $white;
+		&:focus {
+			outline: 0.4rem solid $black-light;
+		}
+	}
+}

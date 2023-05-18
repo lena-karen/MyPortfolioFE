@@ -1,0 +1,94 @@
+@use '../../scss/abstracts' as *;
+
+.header {
+	margin-top: 7rem;
+	position: relative;
+	&::after {
+		content: '';
+		width: 50%;
+		height: calc(100vh - 7rem);
+		@include position(absolute, 0, 0, null, null);
+		background-image: url('../../assets/files/myPhoto3.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center; 
+		clip-path: polygon(39% 0, 100% 0, 100% 100%, 1% 100%, 0 45%);
+
+		@include responsive(md) {
+			width: 100%;
+			height: calc(50vh - 7rem);
+			clip-path: none;
+		}
+	}
+	&__data {
+		@include flexBox(null, center);
+		width: 100%;
+		height: calc(100vh - 10rem);
+		@include responsive(md) {
+			height: calc(50vh - 3rem);	
+			margin-top: calc(50vh - 7rem);
+			justify-content: center;
+		}
+		@include responsive(xsm) {
+			justify-content: flex-start;
+		}
+
+		&__content {
+			&__top {
+				font-size: 1.8rem;
+				font-weight: 500;
+				text-transform: capitalize;
+				color: $black;
+				@include responsive(xsm) {
+					font-size: 1.6rem;
+				}
+			}
+			&__heading {
+				margin-top: 1.5rem;
+				font-size: 4.5rem;
+				font-weight: 900;
+				line-height: 4.5rem;
+				background: linear-gradient(45deg, $black 50%, $green-500 50%);
+				color: transparent;
+				background-clip: text;
+				--webkit-background-clip: text;
+				text-transform: capitalize;
+				@include responsive(md) {
+					font-size: 4rem;
+					line-height: 4rem;
+				}
+				@include responsive(sm) {
+					font-size: 3.3rem;
+					line-height: 3.3rem;
+					margin-top: 1rem;
+					font-weight: 800;
+				}
+				@include responsive(xsm) {
+					font-size: 3rem;
+					line-height: 3rem;
+					font-weight: 700;
+				}
+			}
+			&__bottom {
+				margin-top: 1.5rem;
+				font-size: 1.8rem;
+				font-weight: 500;
+				color: $black;
+				text-transform: capitalize;
+				@include responsive(sm) {
+					margin-top: 1rem;
+				}
+				@include responsive(xsm) {
+					font-size: 1.7rem;
+				}
+			}
+			&__links {
+				margin-top: 1.5rem;
+				display: flex;
+				align-items: center;
+				gap: 2.5rem;
+			}
+		}
+	}
+
+}
