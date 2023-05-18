@@ -40,7 +40,7 @@ export const projects = [
 		title: 'My Portfolio',
 		img: 'my-portfolio.png',
 		tools: 'HTML, SASS, JavaScript, React, React-Hook-Form, emailjs',
-		link: 'https://gardenstore.onrender.com/',
+		link: 'olenasherman.netlify.app',
 		github: 'https://github.com/lena-karen/TelRanFinalProject'
 	},
 	{

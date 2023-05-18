@@ -7,7 +7,6 @@ import Education from './components/Education/Education';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
-import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   const [isModalOpened, setIsModalOpened] = useState(false)
