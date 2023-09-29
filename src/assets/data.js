@@ -26,12 +26,12 @@ export const experienceItems = [
 	{
 		title: 'Frontend Developer, team leader',
 		name: 'Hackathon by Starta Institute',
-		period: '2023 - 2023'
+		period: '2023, May'
 	},
 	{
-		title: 'React Native Developer, Trainee',
-		name: 'ridocu',
-		period: '2023'
+		title: 'React Native Developer, React.js Developer',
+		name: 'Ridocu',
+		period: `2023, May - now`
 	}
 ]
 
@@ -68,20 +68,25 @@ export const skills = [
 	{
 		id: 2,
 		name: 'JavaScript',
-		exp: '1 year'
+		exp: '2 year'
 	},
 	{
 		id: 3,
 		name: 'TypeScript',
-		exp: '3 months'
-	},
-	{
-		id: 4,
-		name: 'React.js / Redux / Thunk',
 		exp: '6 months'
 	},
 	{
+		id: 4,
+		name: 'React.js / Redux / Thunk ',
+		exp: '1 year'
+	},
+	{
 		id: 5,
+		name: 'React Native /  Saga / Axios',
+		exp: '6 months'
+	},
+	{
+		id: 6,
 		name: 'GIT, GitHub, GitLab',
 		exp: '6 months'
 	},
