@@ -10,21 +10,6 @@
 			margin-bottom: 3rem;
 		}
 	}
-	&--row1 [class^='column-']:nth-child(2),
-	&--row1 [class^='column-']:nth-child(4){
-		transform: skewY(8deg);
-		@include responsive(lg) {
-			transform: none;
-		}
-	} 
-
-	&--row2 [class^='column-']:nth-child(1),
-	&--row2 [class^='column-']:nth-child(3){
-		transform: skewY(-8deg);
-		@include responsive(lg) {
-			transform: none;
-		}
-	}
 
 	&__card {
 		width: 100%;

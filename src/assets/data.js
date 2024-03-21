@@ -2,7 +2,7 @@
 export const educationItems = [
 	{
 		title: 'Engineer, software developer',
-		name: 'Odessa Mechnikov National University',
+		name: "Odessa Mechnikov National University (Master's degree confirmed in Germany)",
 		period: '2001 - 2007'
 	},
 	{
@@ -15,6 +15,11 @@ export const educationItems = [
 		name: 'Tel-Ran Online Programming School',
 		period: '2022 - 2023'
 	},
+	{
+		title: 'React Native, React.js developer, Internship',
+		name: 'Ridocu UG',
+		period: '2023, April - September'
+	},
 ]
 
 export const experienceItems = [
@@ -24,14 +29,14 @@ export const experienceItems = [
 		period: '2007 - 2008'
 	},
 	{
-		title: 'Frontend Developer, team leader',
+		title: 'Frontend Developer, team lead',
 		name: 'Hackathon by Starta Institute',
 		period: '2023, May'
 	},
 	{
 		title: 'React Native Developer, React.js Developer',
-		name: 'Ridocu',
-		period: `2023, May - now`
+		name: 'Ridocu UG',
+		period: `2023, April - 2024, March`
 	}
 ]
 
@@ -57,37 +62,60 @@ export const projects = [
 		link: 'https://healyourselfdeploy.vercel.app/',
 		github: 'https://github.com/tel-ran-de/Heal_yourself_front'
 	},
+	{
+		title: 'Ridocu Mobile Application',
+		img: 'ridocu-app.png',
+		tools: 'JavaScript,TypeScript, React Native, Redux, Redux Saga, Axios, React-Hook-Form, GitLab, Jira',
+		link: 'https://play.google.com/store/apps/details?id=com.ridocu',
+	},
+	{
+		title: 'Ridocu Landing page',
+		img: 'ridocu-web.png',
+		tools: 'JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, React-Hook-Form, GitLab, Jira',
+		link: 'ridocu.com/en/landing',
+	},
 ]
+
+const jsStartYear = 2020
+const tsStartYear = 2023
+const reactStartYear = 2022
 
 export const skills = [
 	{
 		id: 1,
 		name: 'HTML, CSS, SASS',
-		exp: '2 years'
+		exp: `${(new Date(Date.now()).getFullYear() - jsStartYear)} years`
 	},
 	{
 		id: 2,
 		name: 'JavaScript',
-		exp: '2 year'
+		exp: `${(new Date(Date.now()).getFullYear() - jsStartYear)} years`
 	},
 	{
 		id: 3,
-		name: 'TypeScript',
-		exp: '6 months'
+		name: 'React.js / Redux / Thunk ',
+		exp: `${(new Date(Date.now()).getFullYear() - reactStartYear)} years`
 	},
 	{
 		id: 4,
-		name: 'React.js / Redux / Thunk ',
-		exp: '1 year'
+		name: 'TypeScript',
+		exp: `${(new Date(Date.now()).getFullYear() - tsStartYear)} years`
 	},
 	{
 		id: 5,
 		name: 'React Native /  Saga / Axios',
-		exp: '6 months'
+		exp: `${(new Date(Date.now()).getFullYear() - tsStartYear)} years`
 	},
 	{
 		id: 6,
+		name: 'Next.js, Tailwind CSS',
+		exp: `${(new Date(Date.now()).getFullYear() - tsStartYear)} years`
+	},
+	{
+		id: 7,
 		name: 'GIT, GitHub, GitLab',
-		exp: '6 months'
+		exp: `${(new Date(Date.now()).getFullYear() - tsStartYear)} years`
 	},
 ]
+
+export const aboutMeText = "Hi, my name's Olena Sherman. I graduated from Ukrainian University with master degree as a Software developer. I continued studying frontend development in a programming school in Berlin. For a year I worked for Ridocu UG as React Native and React.js developer.  I am eager to implement and deep my knowledge in creating useful mobile applications and user-friendly interfaces."

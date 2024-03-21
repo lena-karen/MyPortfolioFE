@@ -1,5 +1,7 @@
 import React from 'react'
 import './About.scss'
+import { aboutMeText } from '../../assets/data'
+
 export default function About() {
   return (
 	<section className = 'about' id = 'about'>
@@ -17,13 +19,7 @@ export default function About() {
 					<h2 className = "heading">Who I am?</h2>
 					<div className = "about__info">
 						<p className = "about__info__message">
-							Hi, my name's Olena Sherman. 
-							I graduated from Ukrainian University 
-							with master degree as a Software developer. 
-							I finished studying frontend development in 
-							a programming school in Berlin. I am eager to 
-							implement my knowledge in creating useful 
-							user-friendly interfaces.
+							{aboutMeText}
 						</p>
 						<div className = "about__info__block">
 							<span className = "about__info__block__name">Name: </span>

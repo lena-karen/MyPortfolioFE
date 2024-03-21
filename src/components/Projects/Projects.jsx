@@ -7,7 +7,7 @@ export default function Projects() {
   return (
 	<section className = 'projects' id = 'projects'>
 		<div className = "container">
-			<h2 className = "heading">Projects</h2>
+			<h2 className = "heading">Projects where I participated</h2>
 			<div className = "row">
 				{
 					projects.map(item => (
@@ -27,10 +27,11 @@ export default function Projects() {
 									</div>
 									<div className="projects__card__layer__link">
 										<a href = {item.link}>{item.link}</a>
-										<a href = {item.github}>
+										{
+											item.github && 	<a href = {item.github}>
 											<i className="bi bi-github"></i>
 										</a>
-										
+										}
 									</div>
 								</div>
 							</div>
