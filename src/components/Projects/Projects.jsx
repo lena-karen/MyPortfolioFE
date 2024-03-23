@@ -26,7 +26,10 @@ export default function Projects() {
 										</span>
 									</div>
 									<div className="projects__card__layer__link">
-										<a href = {item.link}>{item.link}</a>
+										{
+											item.link.map(link => <a  target = '_blank' href = {link}>{link}</a>)
+										}
+										
 										{
 											item.github && 	<a href = {item.github}>
 											<i className="bi bi-github"></i>

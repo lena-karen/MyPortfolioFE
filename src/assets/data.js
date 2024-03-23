@@ -45,34 +45,34 @@ export const projects = [
 		title: 'My Portfolio',
 		img: 'my-portfolio.png',
 		tools: 'HTML, SASS, JavaScript, React, React-Hook-Form, emailjs',
-		link: 'olenasherman.netlify.app',
+		link: ['olenasherman.netlify.app'],
 		github: 'https://github.com/lena-karen/TelRanFinalProject'
 	},
 	{
 		title: 'Garden shop',
 		img: 'garden-shop.png',
 		tools: 'HTML, CSS, JavaScript, React, Redux, Thunk',
-		link: 'https://gardenstore.onrender.com/',
+		link: ['https://gardenstore.onrender.com/'],
 		github: 'https://github.com/lena-karen/TelRanFinalProject'
 	},
 	{
 		title: 'OK Treatments',
 		img: 'ok-treatments.png',
 		tools: 'HTML, CSS, JavaScript, React, Redux, Thunk, React-Hook-Form, GitHub, Jira',
-		link: 'https://healyourselfdeploy.vercel.app/',
+		link: ['https://healyourselfdeploy.vercel.app/'],
 		github: 'https://github.com/tel-ran-de/Heal_yourself_front'
 	},
 	{
 		title: 'Ridocu Mobile Application',
 		img: 'ridocu-app.png',
 		tools: 'JavaScript,TypeScript, React Native, Redux, Redux Saga, Axios, React-Hook-Form, GitLab, Jira',
-		link: 'https://play.google.com/store/apps/details?id=com.ridocu',
+		link: ['https://play.google.com/store/apps/details?id=com.ridocu'],
 	},
 	{
-		title: 'Ridocu Landing page',
+		title: 'Ridocu Website and marketing landing pages',
 		img: 'ridocu-web.png',
 		tools: 'JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, React-Hook-Form, GitLab, Jira',
-		link: 'ridocu.com/en/landing',
+		link: ['https://ridocu.com/en/landing', 'https://ridocu.com'],
 	},
 ]
 
