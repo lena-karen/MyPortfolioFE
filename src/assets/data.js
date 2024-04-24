@@ -66,7 +66,7 @@ export const projects = [
 		title: 'Ridocu Mobile Application',
 		img: 'ridocu-app.png',
 		tools: 'JavaScript,TypeScript, React Native, Redux, Redux Saga, Axios, React-Hook-Form, GitLab, Jira',
-		link: ['https://play.google.com/store/apps/details?id=com.ridocu'],
+		link: ['https://play.google.com/store/apps/details?id=com.ridocu', 'https://apps.apple.com/de/app/ridocu-document-translator/id6463800967?itsct=apps_box_badge&amp;itscg=30200'],
 	},
 	{
 		title: 'Ridocu Website and marketing landing pages',
