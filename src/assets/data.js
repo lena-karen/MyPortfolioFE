@@ -37,6 +37,11 @@ export const experienceItems = [
 		title: 'React Native Developer, React.js Developer',
 		name: 'Ridocu UG',
 		period: `2023, April - 2024, March`
+	},
+	{
+		title: 'React.js Developer, Internship',
+		name: 'Siltacom',
+		period: `2024, May`
 	}
 ]
 
