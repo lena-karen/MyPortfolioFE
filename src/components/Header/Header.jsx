@@ -30,8 +30,8 @@ export default function Header({isModalOpened, setIsModalOpened}) {
 							<h4 className="header__data__content__bottom">Frontend Developer</h4>
 							<div className="header__data__content__links">
 								<a 
-									href = "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFidJAUJQc&#x2F;view?utm_content=DAFidJAUJQc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" 
-									//href = 'Elena(Olena)Sherman.pdf'
+									// href = "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFidJAUJQc&#x2F;view?utm_content=DAFidJAUJQc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" 
+									href = 'Elena(Olena)Sherman.pdf'
 									target = '_blank' 
 									className="btn btn-default"
 									download

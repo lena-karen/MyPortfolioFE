@@ -16,8 +16,9 @@
 
 		@include responsive(md) {
 			width: 100%;
-			height: calc(50vh - 7rem);
+			height: calc(60vh - 7rem);
 			clip-path: none;
+			background-position: center 10%;
 		}
 	}
 	&__data {
@@ -25,8 +26,8 @@
 		width: 100%;
 		height: calc(100vh - 10rem);
 		@include responsive(md) {
-			height: calc(50vh - 3rem);	
-			margin-top: calc(50vh - 7rem);
+			height: calc(30vh - 3rem);	
+			margin-top: calc(70vh - 7rem);
 			justify-content: center;
 		}
 		@include responsive(xsm) {

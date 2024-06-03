@@ -39,8 +39,8 @@ export const experienceItems = [
 		period: `2023, April - 2024, March`
 	},
 	{
-		title: 'React.js Developer, Internship',
-		name: 'Siltacom',
+		title: 'React.js, Next.js Developer Internship',
+		name: 'Siltacom Gitakan',
 		period: `2024, May`
 	}
 ]
@@ -76,8 +76,14 @@ export const projects = [
 	{
 		title: 'Ridocu Website and marketing landing pages',
 		img: 'ridocu-web.png',
-		tools: 'JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, React-Hook-Form, GitLab, Jira',
+		tools: 'JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, React-Hook-Form, GitLab, Jira, Google Auth Library',
 		link: ['https://ridocu.com/en/landing', 'https://ridocu.com'],
+	},
+	{
+		title: 'Gitakan landing pages',
+		img: 'gitakan-landing.png',
+		tools: 'JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, React-Hook-Form, GitLab, Jira, Next-Intl, Google Auth Library',
+		link: ['https://gitakan.com',],
 	},
 ]
 
