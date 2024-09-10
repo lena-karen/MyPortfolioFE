@@ -9,7 +9,7 @@
 	border-bottom: 0.1rem solid $gray-100;
 
 	&__wrapper {
-		width: 1000px;
+		// width: 1000px;
 		max-width: $maxWidth;
 		padding: 0 $gutter;
 		@include flexBox(space-between, center);

@@ -10,7 +10,7 @@
 		@include position(absolute, 0, 0, null, null);
 		background-image: url('../../assets/files/myPhoto3.jpg');
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		background-position: center center; 
 		clip-path: polygon(39% 0, 100% 0, 100% 100%, 1% 100%, 0 45%);
 

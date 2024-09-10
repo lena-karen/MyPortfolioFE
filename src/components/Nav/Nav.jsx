@@ -16,7 +16,7 @@ export default function Nav() {
 
   return (
 	<nav className = 'nav'>
-		<div className = 'nav__wrapper'>
+		<div className = 'nav__wrapper container'>
 			<div className = 'nav__wrapper__logo' onClick = {() => setIsActive(false)}>
 				<a href = "#" className = 'nav__wrapper__logo__brand'>Olena Sherman</a>
 			</div>

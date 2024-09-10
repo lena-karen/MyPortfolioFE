@@ -34,14 +34,19 @@ export const experienceItems = [
 		period: '2023, May'
 	},
 	{
-		title: 'React Native Developer, React.js Developer',
+		title: 'React Native Developer, React.js, Next.js Developer',
 		name: 'Ridocu UG',
 		period: `2023, April - 2024, March`
 	},
 	{
-		title: 'React.js, Next.js Developer Internship',
-		name: 'Siltacom Gitakan',
-		period: `2024, May`
+		title: 'React.js, Next.js Developer Internship, team lead',
+		name: 'Gitakan Tech Institute Oy',
+		period: `2024, May - now`
+	},
+	{
+		title: 'React.js, Next.js Developer Internship team lead',
+		name: 'Softacademy',
+		period: `2024, June - now`
 	}
 ]
 
@@ -81,7 +86,7 @@ export const projects = [
 	},
 	{
 		title: 'Gitakan landing pages',
-		img: 'gitakan-landing.png',
+		img: 'gitakan-web.png',
 		tools: 'JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, React-Hook-Form, GitLab, Jira, Next-Intl, Google Auth Library',
 		link: ['https://gitakan.com',],
 	},
