@@ -53,40 +53,40 @@ export const experienceItems = [
 export const projects = [
 	{
 		title: 'My Portfolio',
-		img: 'my-portfolio.png',
+		img: 'my-portfolio.webp',
 		tools: 'HTML, SASS, JavaScript, React, React-Hook-Form, emailjs',
 		link: ['olenasherman.netlify.app'],
 		github: 'https://github.com/lena-karen/TelRanFinalProject'
 	},
 	{
 		title: 'Garden shop',
-		img: 'garden-shop.png',
+		img: 'garden-shop.webp',
 		tools: 'HTML, CSS, JavaScript, React, Redux, Thunk',
 		link: ['https://gardenstore.onrender.com/'],
 		github: 'https://github.com/lena-karen/TelRanFinalProject'
 	},
 	{
 		title: 'OK Treatments',
-		img: 'ok-treatments.png',
+		img: 'ok-treatments.webp',
 		tools: 'HTML, CSS, JavaScript, React, Redux, Thunk, React-Hook-Form, GitHub, Jira',
 		link: ['https://healyourselfdeploy.vercel.app/'],
 		github: 'https://github.com/tel-ran-de/Heal_yourself_front'
 	},
 	{
 		title: 'Ridocu Mobile Application',
-		img: 'ridocu-app.png',
+		img: 'ridocu-app.webp',
 		tools: 'JavaScript,TypeScript, React Native, Redux, Redux Saga, Axios, React-Hook-Form, GitLab, Jira',
 		link: ['https://play.google.com/store/apps/details?id=com.ridocu', 'https://apps.apple.com/de/app/ridocu-document-translator/id6463800967?itsct=apps_box_badge&amp;itscg=30200'],
 	},
 	{
 		title: 'Ridocu Website and marketing landing pages',
-		img: 'ridocu-web.png',
+		img: 'ridocu-web.webp',
 		tools: 'JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, React-Hook-Form, GitLab, Jira, Google Auth Library',
 		link: ['https://ridocu.com/en/landing', 'https://ridocu.com'],
 	},
 	{
 		title: 'Gitakan landing pages',
-		img: 'gitakan-web.png',
+		img: 'gitakan-web.webp',
 		tools: 'JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, React-Hook-Form, GitLab, Jira, Next-Intl, Google Auth Library',
 		link: ['https://gitakan.com',],
 	},
