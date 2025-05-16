@@ -12,10 +12,10 @@ export default function Education() {
 					<h2 className = "heading">Education</h2>
 					<div className = "row education--row1">
 						{
-							educationItems.map(item => (
+							educationItems.map((item, i) => (
 								<div 
 									className = "column-xlg-6 column-lg-4 column-md-6 column-sm-12" 
-									key = {item.name}
+									key = {i}
 								>
 									<div className = "education__card" >
 										<h3 className = "education__card__title">
@@ -47,10 +47,10 @@ export default function Education() {
 					<h2 className = "heading">Experience</h2>
 					<div className = "row education--row2">
 						{
-							experienceItems.map(item => (
+							experienceItems.map((item, i) => (
 								<div 
 									className = "column-xlg-6 column-lg-4 column-md-6 column-sm-12" 
-									key = {item.name}
+									key = {i}
 								>
 									<div className = "education__card" >
 										<h3 className = "education__card__title">
